@@ -1,0 +1,25 @@
+GET http://localhost:3333/users?search=shao lin
+
+###
+
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+    "name": "shaolin zin",
+    "email": "shaolin@porco.com"
+}
+
+###
+
+DELETE http://localhost:3333/users/
+
+###
+
+PUT http://localhost:3333/users/
+Content-Type: application/json
+
+{
+    "name": "nome trocado",
+    "email": "email@trocado.com"
+}
