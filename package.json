@@ -1,0 +1,12 @@
+{
+  "name": "estudos",
+  "module": "index.ts",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "type": "module"
+}
